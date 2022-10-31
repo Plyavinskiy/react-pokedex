@@ -1,4 +1,7 @@
+import React, { Fragment } from "react";
+
 import { Waypoint } from "react-waypoint";
+import * as S from "./styles";
 
 interface IProps {
   children: React.ReactNode;
@@ -6,7 +9,14 @@ interface IProps {
 }
 
 const InfiniteScroll = ({ children, callBack }: IProps) => {
-  return <div>Infinite Scroll</div>;
+  return (
+    <Fragment>
+      {children}
+      <Waypoint bottomOffset="-20px" onEnter={callBack}>
+        <S.LoadingSpace />
+      </Waypoint>
+    </Fragment>
+  );
 };
 
 export default InfiniteScroll;
