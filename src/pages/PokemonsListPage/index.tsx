@@ -98,9 +98,7 @@ const PokemonsListPage: React.FC = () => {
               <S.PokemonsListWrapper>
                 {pokemonsList}
                 {pokemonError === ERROR && (
-                  <PokemonAlert
-                    message={"Sorry, we could not find your pokemon"}
-                  />
+                  <PokemonAlert message={"There is no such pokemon"} />
                 )}
               </S.PokemonsListWrapper>
               {loading && <Spinner />}
