@@ -1,3 +1,7 @@
+import React from "react";
+
+import * as S from "./styles";
+
 interface IProps {
   tabName: string;
   click: (event: React.MouseEvent) => void;
@@ -11,7 +15,11 @@ const PokemonDetailTab: React.FC<IProps> = ({
   isActive,
   index,
 }: IProps) => {
-  return <div>Pokemon Detail Tab</div>;
+  return (
+    <S.Tab onClick={click} active={isActive} id={index}>
+      {tabName}
+    </S.Tab>
+  );
 };
 
 export default PokemonDetailTab;
