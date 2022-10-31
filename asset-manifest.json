@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-pokedex/static/css/main.ae391828.chunk.css",
+    "main.js": "/react-pokedex/static/js/main.14b8fc7b.chunk.js",
+    "main.js.map": "/react-pokedex/static/js/main.14b8fc7b.chunk.js.map",
+    "runtime-main.js": "/react-pokedex/static/js/runtime-main.44ded1c4.js",
+    "runtime-main.js.map": "/react-pokedex/static/js/runtime-main.44ded1c4.js.map",
+    "static/css/2.6ef2fac9.chunk.css": "/react-pokedex/static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.b107c3f8.chunk.js": "/react-pokedex/static/js/2.b107c3f8.chunk.js",
+    "static/js/2.b107c3f8.chunk.js.map": "/react-pokedex/static/js/2.b107c3f8.chunk.js.map",
+    "index.html": "/react-pokedex/index.html",
+    "static/css/2.6ef2fac9.chunk.css.map": "/react-pokedex/static/css/2.6ef2fac9.chunk.css.map",
+    "static/css/main.ae391828.chunk.css.map": "/react-pokedex/static/css/main.ae391828.chunk.css.map",
+    "static/js/2.b107c3f8.chunk.js.LICENSE.txt": "/react-pokedex/static/js/2.b107c3f8.chunk.js.LICENSE.txt",
+    "static/media/pikachu.af02434e.png": "/react-pokedex/static/media/pikachu.af02434e.png",
+    "static/media/pokeball.79fa1373.svg": "/react-pokedex/static/media/pokeball.79fa1373.svg",
+    "static/media/puredex-logo.72608648.png": "/react-pokedex/static/media/puredex-logo.72608648.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44ded1c4.js",
+    "static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.b107c3f8.chunk.js",
+    "static/css/main.ae391828.chunk.css",
+    "static/js/main.14b8fc7b.chunk.js"
+  ]
+}
