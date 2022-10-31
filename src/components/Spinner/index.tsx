@@ -1,5 +1,16 @@
+import * as S from "./styles";
+
 const Spinner = () => {
-  return <div>Spinner</div>;
+  return (
+    <S.Spinner>
+      <S.LdsEllipsis>
+        <S.LdsEllipsisChild />
+        <S.LdsEllipsisChild />
+        <S.LdsEllipsisChild />
+        <S.LdsEllipsisChild />
+      </S.LdsEllipsis>
+    </S.Spinner>
+  );
 };
 
 export default Spinner;
